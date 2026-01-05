@@ -1,16 +1,17 @@
 {
   "name": "my-node-app",
   "version": "1.0.0",
-  "description": "Simple Node.js app for CI/CD demo",
-  "main": "app.js",
+  "description": "Simple Node.js app with CI pipeline",
+  "main": "index.js",
   "scripts": {
     "lint": "echo \"Lint check passed\"",
     "test": "jest",
     "build": "echo \"Build successful\""
-},
-  "author": "",
-  "license": "ISC",
+  },
   "dependencies": {
     "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
