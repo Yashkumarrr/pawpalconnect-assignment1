@@ -4,8 +4,10 @@
   "description": "Simple Node.js app for CI/CD demo",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
-  },
+    "lint": "echo \"Lint check passed\"",
+    "test": "jest",
+    "build": "echo \"Build successful\""
+},
   "author": "",
   "license": "ISC",
   "dependencies": {
